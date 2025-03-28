@@ -1,10 +1,12 @@
 ---
 title: Markdown Example
-published: 2023-10-01
-description: A simple example of a Markdown blog post.
-tags: [Markdown, Blogging, Demo]
-category: Examples
-draft: false
+published: 2025-03-28
+description: ''
+image: ''
+tags: []
+category: ''
+draft: false 
+lang: ''
 ---
 
 # An h1 header
@@ -155,7 +157,7 @@ Here's a "line block":
 
 and images can be specified like so:
 
-[//]: # (![example image]&#40;./demo-banner.png "An exemplary image"&#41;)
+[//]: # (![example image]&#40;./banner.png "An exemplary image"&#41;)
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
@@ -173,3 +175,76 @@ $$
 
 And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+
+## GitHub Repository Cards
+You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
+
+::github{repo="Fabrizz/MMM-OnSpotify"}
+
+Create a GitHub repository card with the code `::github{repo="<owner>/<repo>"}`.
+
+```markdown
+::github{repo="saicaca/fuwari"}
+```
+
+## Admonitions
+
+Following types of admonitions are supported: `note` `tip` `important` `warning` `caution`
+
+:::note
+Highlights information that users should take into account, even when skimming.
+:::
+
+:::tip
+Optional information to help a user be more successful.
+:::
+
+:::important
+Crucial information necessary for users to succeed.
+:::
+
+:::warning
+Critical content demanding immediate user attention due to potential risks.
+:::
+
+:::caution
+Negative potential consequences of an action.
+:::
+
+### Basic Syntax
+
+```markdown
+:::note
+Highlights information that users should take into account, even when skimming.
+:::
+
+:::tip
+Optional information to help a user be more successful.
+:::
+```
+
+### Custom Titles
+
+The title of the admonition can be customized.
+
+:::note[MY CUSTOM TITLE]
+This is a note with a custom title.
+:::
+
+```markdown
+:::note[MY CUSTOM TITLE]
+This is a note with a custom title.
+:::
+```
+
+### GitHub Syntax
+
+> [!TIP]
+> [The GitHub syntax](https://github.com/orgs/community/discussions/16925) is also supported.
+
+```
+> [!NOTE]
+> The GitHub syntax is also supported.
+
+> [!TIP]
+> The GitHub syntax is also supported.
