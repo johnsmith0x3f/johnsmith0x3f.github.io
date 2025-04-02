@@ -23,7 +23,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 export default defineConfig({
   site: "https://johnsmith0x3f.github.io",
   base: "fuwari",
-  trailingSlash: "always",
+  trailingSlash: "ignore",
   integrations: [
     tailwind(
         {
