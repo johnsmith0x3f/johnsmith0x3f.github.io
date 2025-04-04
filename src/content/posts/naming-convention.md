@@ -35,6 +35,18 @@ All the things I created goes here. For a project named "Foo Bar"
 
 ## Videos
 
+### Movies
+
+The structure is `$NAME [$YEAR]/$INDEX.$FILETYPE`, where:
+- `$NAME` is the official name of the movie. If the original name is not in English, use translated name instead.
+- `$YEAR` is the year when the movie is released.
+- `$INDEX` is the index on [TMDB](https://www.themoviedb.org), should only contain digits.
+- `$FILETYPE` equals `mkv` when the video codec is AV1 (or possibly other open codecs), otherwise equals `mp4`.
+
+The audio tracks should prefer `flac` codec, and contain only:
+- The main track in the original language of the movie.
+- Possibly one or more commentary tracks.
+
 # Style 2
 
 TODO
