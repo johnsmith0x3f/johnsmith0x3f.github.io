@@ -16,3 +16,5 @@ Check [this repo](https://github.com/johnsmith0x3f/solutions) for details.
 [Chapter 2](https://johnsmith0x3f.github.io/solutions/9780138147570/chapter-02.pdf)
 
 [Chapter 9](https://johnsmith0x3f.github.io/solutions/9780138147570/chapter-09.pdf)
+
+[Chapter 10](https://johnsmith0x3f.github.io/solutions/9780138147570/chapter-10.pdf)
