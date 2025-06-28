@@ -1,12 +1,12 @@
 ---
 title: Solutions
 published: 2025-06-18
-description: 'Some solutions I''ve wrote for some books I''ve read.'
-image: ''
-tags: []
-category: ''
+description: "Some solutions I've wrote for some books I've read."
+image: ""
+tags: [ "typst" ]
+category: ""
 draft: false
-lang: ''
+lang: ""
 ---
 
 Check [this repo](https://github.com/johnsmith0x3f/solutions) for details.
