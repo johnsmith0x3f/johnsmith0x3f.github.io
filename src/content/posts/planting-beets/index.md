@@ -5,7 +5,7 @@ description: "Plant beets in pods."
 image: ""
 tags: [ "beets", "docker", "podman" ]
 category: ""
-draft: false
+draft: true
 lang: ""
 ---
 
